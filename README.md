@@ -1,2 +1,8 @@
-# DSA-DATA-ANALYSIS-PROJECT
-This is a project executed at the end of my data analysis course with Digital Skill Up Africa
+# DSA-DATA-ANALYSIS-FINAL PROJECT
+This is a project executed at the end of my data analysis course under the auspices of Digital Skill Up Africa.
+## PROJECT TITLE: DSA DATA ANALYSIS CAPSTONE PROJECT
+## Case Study 3: Palmora Group HUMAN RESOURCE (HR) Analysis
+PROJECT OVERVIEW
+ANALYSIS TOOL
+OUTCOME OF PALMORA GROUP HR DATA ANALYSIS
+FINDINGS AND RECOMMENDATION
