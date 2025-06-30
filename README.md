@@ -40,4 +40,5 @@ CASE SCENARIO
   
 - In the course of transforming my data, I removed unwanted columns (While on power query, right click on the column you intend to remove and click remove). I promoted my column header by making first row header (Click on anywhere in the table, click transform tab, on the table fields click on use first row as header).
   
-- I added index Column to be my first column in my main data table (Palmoria Group emp-data)
+- I added index Column (click on the table, click on add column and  under general field, click on index column from 1. I reordered it to be my first column in my main data table (Palmoria Group emp-data) by clicking on the header, hold and drag to the desired position.
+- I  deleted employees without salary by using filter option (the arrow by the bottom right of the header). Click on arrow of the actual column header you intend to filder and uncheck null cells.
