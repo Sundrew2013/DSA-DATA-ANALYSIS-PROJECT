@@ -36,7 +36,8 @@ CASE SCENARIO
 
 - I painstakingly read all that concerns the project and the given parameters as well as the data supplied to me by company. This enable me to understand what steps I am to take towards achieving the goal.
   
-- Import the both files given to me and transformed the two tables using power query.
+- Import the both file which contains the two required tables named Palmoria group emp-data and Bonus Rule  given to me and transformed the two tables using power query.
   
 - In the course of transforming my data, I removed unwanted columns (While on power query, right click on the column you intend to remove and click remove). I promoted my column header by making first row header (Click on anywhere in the table, click transform tab, on the table fields click on use first row as header).
-- 
+  
+- I added index Column to be my first column in my main data table (Palmoria Group emp-data)
