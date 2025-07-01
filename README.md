@@ -101,9 +101,10 @@ Substitute the specific gender for the separate measures to create for the other
 
 Click on column chart, drag name column into 'y' axis and chose count while for 'x' axis drag gender and location into it.  
 
-
+![No of employees based on department and gender](https://github.com/user-attachments/assets/e596c101-9837-4819-b37b-407efdcedd6c)
 
 By Location we have the chart below.
+
 
 ![Uploading Gender Distribution based on location.JPG…]()
 
