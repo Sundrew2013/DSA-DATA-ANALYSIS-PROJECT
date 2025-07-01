@@ -105,6 +105,5 @@ Click on column chart, drag name column into 'y' axis and chose count while for 
 
 By Location we have the chart below.
 
-![Avg Salary based on gender](https://github.com/user-attachments/assets/1cdeecf1-533e-45f7-b77a-51bb37d46ef0)
-
+![Gender Distribution based on location](https://github.com/user-attachments/assets/de0c5998-35c1-47cb-b031-de932eaf6c1c)
 
