@@ -153,7 +153,7 @@ New Salary <90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] <90000))
 
   New Salary >90000<110000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000 && 'New Salary Table'[New Salary] <110000))
 
-  ```New Salary>110000 = COUNTROWS(FILTER('New Salary Table',[Salary] > 110000))
+  ``New Salary>110000 = COUNTROWS(FILTER('New Salary Table',[Salary] > 110000))
 
   ![No  of empoyees based on salary range and region](https://github.com/user-attachments/assets/8467a5b1-7901-49b3-be82-0b812903214f)
   
