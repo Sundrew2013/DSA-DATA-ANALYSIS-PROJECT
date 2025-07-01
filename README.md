@@ -91,7 +91,8 @@ Replicate same process for female and unspecified gender as the case may be to g
 
 1. What is the gender distribution in the organization? Distil to regions and departments. 
 
-Click on column chart, drag name column into 'y' axis and chose count while for 'x' axis drag gender and location into it.  
+Click on column chart, drag name column into 'y' axis and choose count while for 'x' axis drag gender and department into it.
+From the chart, below, if you hover around the columns in the chart, the number of employees in a particular department will display. Note that the various colors represent different department as shown in the legend. The departments are Research and Development, Accounting, Marketing, Services, Human Resources, Training, Product Management and Business Development department.
 
 ![No of employees based on department and gender](https://github.com/user-attachments/assets/e596c101-9837-4819-b37b-407efdcedd6c)
 
