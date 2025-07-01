@@ -107,3 +107,6 @@ By Location we have the chart below. Duplicate and uncheck the fields for the ex
 
 ![Gender Distribution based on location](https://github.com/user-attachments/assets/de0c5998-35c1-47cb-b031-de932eaf6c1c)
 
+2. Show insights on ratings based on gender.
+
+   
