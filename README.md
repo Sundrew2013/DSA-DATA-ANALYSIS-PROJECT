@@ -97,14 +97,13 @@ Substitute the specific gender for the separate measures to create for the other
 
 ![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)
 
-1. What is the gender distribution in the organization? Distil to regions and departments.
+1. What is the gender distribution in the organization? Distil to regions and departments. 
 
 Click on column chart, drag name column into 'y' axis and chose count while for 'x' axis drag gender and location into it.  
 
 ![No of employees based on department and gender](https://github.com/user-attachments/assets/e596c101-9837-4819-b37b-407efdcedd6c)
 
 By Location we have the chart below.
-
 
 ![Uploading Gender Distribution based on location.JPG…]()
 
