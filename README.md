@@ -77,5 +77,5 @@ Use pivot tables and calculated columns where necessary to answer the questions.
 1. What is the average discount percentage by product category?
 Using card visuals, drag it into the report canva and go to the 'New Salary Table', while the card is selected, check the name column and the number of employee names will be counted and displayed in the visual.
 
-![CARDS](https://github.com/user-attachments/assets/db54888a-702b-4a56-8b23-26a55772b468)
+
 
