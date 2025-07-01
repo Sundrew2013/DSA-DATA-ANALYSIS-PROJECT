@@ -7,6 +7,8 @@ This is a project executed at the end of my data analysis course under the auspi
 
 -[Analysis Tool](#analysis-tool)
 
+-[Step By Step Procedures](step-by-step-procedures)
+
 -[Outcome of Analysis](#outcome-of-analysis)
 
 -[Conclusion and Recommendation](#conclusion-and-recommendation)
