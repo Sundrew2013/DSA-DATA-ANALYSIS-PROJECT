@@ -75,8 +75,12 @@ I removed duplicates using the name column as reference column. (Select the name
       
 Use pivot tables and calculated columns where necessary to answer the questions.
 1. What is the average discount percentage by product category?
-Using card visuals, drag it into the report canva and go to the 'New Salary Table', while the card is selected, check the name column and the number of employee names will be counted and displayed in the visual.
+Using card visuals, drag it into the report canva and go to the 'New Salary Table', while the card is selected, check the name column and the number of employee names will be counted and displayed in the visual as shown in the image below.
 
 ![Card Visual](https://github.com/user-attachments/assets/f4617d34-663a-4f12-9ecc-3f4b348e8fd1)
 
+After that, you can format the visual by clicking on the 'Format your Visual'option to see and apply any format of your choice.
 
+Duplicate the formated card to ensure format consistency. 
+
+To get number of male employees, select the card visual, right click on any column and click new measure. Make the measure name 'Male count' then typ the formula Male Count = CALCULATE(CountX(FILTER('New Salary Table','New Salary Table'[Gender]= "MALE"),'New Salary Table'[Gender]))
