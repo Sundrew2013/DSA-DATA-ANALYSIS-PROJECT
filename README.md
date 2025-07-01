@@ -55,7 +55,7 @@ I removed duplicates using the name column as reference column. (Select the name
 
 - Rename the Attribute column to Rating.
 
-- Now you have to merge the tables to create a New Salary Table (Open the Palmoria group emp-data set again,on the home tab, under combine field, click merge queries as new using bonus table as second table). Use both department and rating as matching columns for the merging (Department to Department, Attributes to Rating). Left outer join is my type of join. The combined table is named New Salary Table.
+- Now you have to merge the tables to create a New Salary Table (Open the Palmoria group emp-data set again,on the home tab, under combine field, click merge queries as new using bonus table as second table). Use both department and rating as matching columns for the merging (Department to Department, Attributes to Rating). Left outer join is my type of join. The combined table is named 'New Salary Table'.
 
 - After merging, delete unwanted columns (the Department and Attribute columns in the bouns table that was joined to the main table). This is because I already have them as part of the Palmoria Group emp-data table which I also refer to as my Primary table.
 
@@ -63,6 +63,8 @@ I removed duplicates using the name column as reference column. (Select the name
 
 - For Bonus Amount Column, add custom column and rename the column then type the formula [salary]*[Bonus Rule Value]
 
-- When you close and apply, go to the data type ofeach of the columns and ensure they are correct. For Name, Gender, Department, Location columns, select text as the data type. For Bonus Rule Value column, select percentage as data type and apply thousand separator under column tools tab which appears once a column is selected.
+- When you close and apply, go to the data type of each of the columns and ensure they are correct. For Name, Gender, Department, Location columns, select text as the data type. For Bonus Rule Value column, select percentage as data type and apply thousand separator under column tools tab which appears once a column is selected.
 
-- Sort the index column in ascending order to get the actual number of employees
+- Sort the index column in ascending order to get the actual number of employees.
+
+- At this point, the 'New Salary Table' is in order and ready for visualization based on the information required. 
