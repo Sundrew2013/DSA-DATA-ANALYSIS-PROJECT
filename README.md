@@ -108,7 +108,7 @@ Using a Matrix visual, click and drag the visual in the canva while it is select
 
 To do this I think getting the average salary based on gender is necessary and to do this, use pie chart visual. Create separate measures for average salary for male, female and unspecified using the formula below.
 
-``Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")``
+```Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")```
 
 Substitute the specific gender for the separate measures to create measures for the other genders having created the first measure. The result is represented in the pie chart below.
 
