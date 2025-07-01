@@ -90,7 +90,13 @@ Select one of the duplicated cards, uncheck existing fields so that you can deci
 
 Replicate same process for female and unspecified gender as the case may be to get the number of female and unspecified gender employees as shown above.
 
-To get average salary based on gender, use pie chart visual. measure for average male salary measure  
+To get average salary based on gender, use pie chart visual. Create separate measures for average salary for male, female and unspecified using the formula below.
+
+```SQL
+Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")
+Substitute the specific gender for the separate measures to create for the other genders. The result is represented in the pie chart below.
+
+![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)
 
 1. What is the gender distribution in the organization? Distil to regions and departments.
 
