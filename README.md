@@ -90,6 +90,7 @@ Select one of the duplicated cards, uncheck existing fields so that you can deci
 
 Replicate same process for female and unspecified gender as the case may be to get the number of female and unspecified gender employees as shown above.
 
-1. What is the gender distribution in the organization? Distil to regions and 
-departments
+1. What is the gender distribution in the organization? Distil to regions and departments.
+
+
 
