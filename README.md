@@ -11,7 +11,7 @@ This is a project executed at the end of my data analysis course under the auspi
 
 -[Step By Step Procedures](#step-by-step-procedures)
 
--[Analysis Task](#analysis-tasks)
+-[Analysis Tasks](#analysis-tasks)
 
 -[Conclusion and Recommendation](#conclusion-and-recommendation)
 
