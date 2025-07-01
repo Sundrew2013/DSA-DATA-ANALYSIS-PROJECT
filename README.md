@@ -11,7 +11,7 @@ This is a project executed at the end of my data analysis course under the auspi
 
 -[Step By Step Procedures](#step-by-step-procedures)
 
--[Analysis Task](#analysis-task)
+-[Analysis Task](#analysis-tasks)
 
 -[Conclusion and Recommendation](#conclusion-and-recommendation)
 
@@ -73,7 +73,7 @@ I removed duplicates using the name column as reference column. (Select the name
 
 - Select the 'New Salary Table'and click on report view.
 
-## ANALYSIS TASKS
+### ANALYSIS TASKS
 
 Using card visuals, click and drag into the report canva, go to the 'New Salary Table', while the card is selected, check the name column and the number of employee names will be counted and displayed in the visual as shown in the image below.
 
