@@ -119,4 +119,10 @@ Substitute the specific gender for the separate measures to create measures for 
 
 By the pie chart above, I can confidently say difference between the male and female avearge salary is insignificant for any rational person to say that Palmora is gender biased in her operation or recruitment as the case may be.
 
- 
+4. A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000.
+  ● Does Palmoria meet this requirement? 
+  ● Show the pay distribution of employees grouped by a band of $10,000. For example: 
+  ● How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.? 
+  ● Also visualize this by regions
+
+
