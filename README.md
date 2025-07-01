@@ -90,7 +90,10 @@ Select one of the duplicated cards, uncheck existing fields so that you can deci
 
 Replicate same process for female and unspecified gender as the case may be to get the number of female and unspecified gender employees as shown above.
 
+To get average salary based on gender, use pie chart visual. measure for average male salary measure  
+
 1. What is the gender distribution in the organization? Distil to regions and departments.
 
+Click on column chart, drag name column into 'y' axis and chose count while for 'x' axis drag gender and location into it.  
 
-
+![No  of employee based on gender, department and region](https://github.com/user-attachments/assets/6dbea2c6-cc73-4ab8-9ef6-5d16ab75b014)
