@@ -147,6 +147,10 @@ New Salary <90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] <90000))
 
   New Salary >50000<70000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=50000 && 'New Salary Table'[New Salary] <70000))
 
+  The Matrix Visual below has the representation of values
+  
+![No  of empoyees based on salary range and region](https://github.com/user-attachments/assets/8467a5b1-7901-49b3-be82-0b812903214f)
+
   New Salary >70000<90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=70000 && 'New Salary Table'[New Salary] <90000))
 
   New Salary >90000<110000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000 && 'New Salary Table'[New Salary] <110000))
