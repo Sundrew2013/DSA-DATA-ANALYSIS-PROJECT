@@ -87,5 +87,5 @@ To get number of male employees, select the card visual, right click on any colu
 
 ````SQL
 Male Count = CALCULATE(CountX(FILTER('New Salary Table','New Salary Table'[Gender]= "MALE"),'New Salary Table'[Gender]))
-```
+
 
