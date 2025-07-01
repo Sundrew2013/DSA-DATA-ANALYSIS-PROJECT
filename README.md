@@ -108,10 +108,10 @@ Using a Matrix visual, click and drag the visual in the canva while it is select
 
 To do this I think getting the average salary based on gender is necessary and to do this, use pie chart visual. Create separate measures for average salary for male, female and unspecified using the formula below.
 
-Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")
+``Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")``
 
 Substitute the specific gender for the separate measures to create measures for the other genders having created the first measure. The result is represented in the pie chart below.
 
-``![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)``
+![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)
 
 By the pie chart above, I can confidently say difference between the male and female avearge salary is insignificant for any rational person to say that Palmora is gender biased in her operation or recruitment as the case may be.
