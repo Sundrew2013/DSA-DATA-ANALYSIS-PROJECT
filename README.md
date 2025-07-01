@@ -119,6 +119,10 @@ Substitute the specific gender for the separate measures to create measures for 
 
 By the pie chart above, I can confidently say difference between the male and female avearge salary is insignificant for any rational person to say that Palmora is gender biased in her operation or recruitment as the case may be.
 
+Further more you can also get average salary based on location department and region. to do this, duplicate the existing matrix visual to sustain consistency. Uncheck the existing columns in the visual, drag gender and location column into rows area, department column in to column area and average new salary column into values. Using the chart formart tab, you can edit the table title and others to your satisfaction.
+
+![Average salary based on location department and region](https://github.com/user-attachments/assets/e489978b-928b-494d-9a34-4507536a9aa3)
+
 4. A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000.
   ● Does Palmoria meet this requirement? 
   ● Show the pay distribution of employees grouped by a band of $10,000. For example: 
@@ -134,3 +138,5 @@ To arrive at the above chart, create a measure for employees earning >=90,000 us
 New Salary <90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] <90000))
 
 [New Salary >=90000] = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000))
+
+- For pay distribution grouped by band take a look at the chart below
