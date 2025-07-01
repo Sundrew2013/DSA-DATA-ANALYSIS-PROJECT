@@ -125,4 +125,12 @@ By the pie chart above, I can confidently say difference between the male and fe
   ● How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.? 
   ● Also visualize this by regions
 
+![Minimum of 90000](https://github.com/user-attachments/assets/f9f526de-e7c6-4ab7-a463-7978fad8f7f4)
 
+By the Pie chart above, Palmora has not met the requirement because 570 employees which represent 65.22% of the total employee still earn below $90,000.
+
+To arrive at the above chart, create a measure for employees earning >=90,000 using the formular below 
+
+New Salary <90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] <90000))
+
+[New Salary >=90000] = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000))
