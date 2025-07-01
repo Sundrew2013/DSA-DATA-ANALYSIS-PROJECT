@@ -72,20 +72,24 @@ I removed duplicates using the name column as reference column. (Select the name
 - Select the 'New Salary Table'and click on report view.
 
 ## ANALYSIS TASKS
-      
-Use pivot tables and calculated columns where necessary to answer the questions.
-1. What is the average discount percentage by product category?
-Using card visuals, drag it into the report canva and go to the 'New Salary Table', while the card is selected, check the name column and the number of employee names will be counted and displayed in the visual as shown in the image below.
+
+Using card visuals, click and drag into the report canva, go to the 'New Salary Table', while the card is selected, check the name column and the number of employee names will be counted and displayed in the visual as shown in the image below.
 
 ![Card Visual](https://github.com/user-attachments/assets/f4617d34-663a-4f12-9ecc-3f4b348e8fd1)
 
-After that, you can format the visual by clicking on the 'Format your Visual'option to see and apply any format of your choice.
+After that, you can format the visual by clicking on the 'Format your Visual' option to apply any format of your choice.
 
-Duplicate the formated card to ensure format consistency. 
+Duplicate and use the formated card to ensure format consistency. 
 
-To get number of male employees, select the card visual, right click on any column and click new measure. Make the measure name 'Male count' enter the formula 
+To get number of male employees, create a new measure by right clicking on any column and click new measure. Make the measure name 'Male count' enter the formula below.
 
 ````SQL
 Male Count = CALCULATE(CountX(FILTER('New Salary Table','New Salary Table'[Gender]= "MALE"),'New Salary Table'[Gender]))
 
+Select one of the duplicated cards, uncheck existing fields so that you can decide on what to represent. Since we want no. of male employees, check the 'male count' measure created and you will see the number of males as shown in the image above.
+
+Replicate same process for female and unspecified gender as the case may be to get the number of female and unspecified gender employees as shown above.
+
+1. What is the gender distribution in the organization? Distil to regions and 
+departments
 
