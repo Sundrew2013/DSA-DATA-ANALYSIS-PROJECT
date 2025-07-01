@@ -84,6 +84,7 @@ Duplicate and use the formated card to ensure format consistency.
 To get number of male employees, create a new measure by right clicking on any column and click new measure. Make the measure name 'Male count' enter the formula below.
 
 ```SQL
+
 Male Count = CALCULATE(CountX(FILTER('New Salary Table','New Salary Table'[Gender]= "MALE"),'New Salary Table'[Gender]))
 
 Select one of the duplicated cards, uncheck existing fields so that you can decide on what to represent. Since we want no. of male employees, check the 'male count' measure created and you will see the number of males as shown in the image above.
