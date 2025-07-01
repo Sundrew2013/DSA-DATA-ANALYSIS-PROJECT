@@ -93,6 +93,7 @@ Replicate same process for female and unspecified gender as the case may be to g
 To get average salary based on gender, use pie chart visual. Create separate measures for average salary for male, female and unspecified using the formula below.
 
 ```SQL
+
 Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")
 Substitute the specific gender for the separate measures to create for the other genders. The result is represented in the pie chart below.
 
