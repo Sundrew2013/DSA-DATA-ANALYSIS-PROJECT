@@ -108,5 +108,7 @@ By Location we have the chart below. Duplicate and uncheck the fields for the ex
 ![Gender Distribution based on location](https://github.com/user-attachments/assets/de0c5998-35c1-47cb-b031-de932eaf6c1c)
 
 2. Show insights on ratings based on gender.
-Using a Matrix visual, click and drag the visual in the canva while it is selected, drag gender column into rows area, rating column into column area and name column into values area and summarize by count.
-   
+Using a Matrix visual, click and drag the visual in the canva while it is selected, drag gender column into rows area, rating column into column area and name column into values area and summarize by count. You will get the chart below as the result.
+
+![No  of Employees based on gender ratings](https://github.com/user-attachments/assets/c10453d9-7e7e-4f2c-a50e-f0100ba76353)
+
