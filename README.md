@@ -103,5 +103,7 @@ Click on column chart, drag name column into 'y' axis and chose count while for 
 
 ![No  of employee based on gender, department and region](https://github.com/user-attachments/assets/6dbea2c6-cc73-4ab8-9ef6-5d16ab75b014)
 
+By Location we have the chart below.
+
 ![Uploading Gender Distribution based on location.JPG…]()
 
