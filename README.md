@@ -139,4 +139,17 @@ New Salary <90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] <90000))
 
 [New Salary >=90000] = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000))
 
-- For pay distribution grouped by band take a look at the chart below
+- For pay distribution grouped by band, create new measures for each ranges by entering the formular below.
+
+  New Salary <30000 = CALCULATE(COUNTROWS(FILTER('New Salary Table',[New Salary] <30000)))
+
+  [New Salary >=30000 <50000] = CALCULATE(COUNTROWS(FILTER('New Salary Table',[New Salary] >=30000 && 'New Salary Table'[New Salary] <50000)))
+
+  New Salary >50000<70000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=50000 && 'New Salary Table'[New Salary] <70000))
+
+  New Salary >70000<90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=70000 && 'New Salary Table'[New Salary] <90000))
+
+  New Salary >90000<110000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000 && 'New Salary Table'[New Salary] <110000))
+
+  New Salary>110000 = COUNTROWS(FILTER('New Salary Table',[Salary] > 110000))
+  
