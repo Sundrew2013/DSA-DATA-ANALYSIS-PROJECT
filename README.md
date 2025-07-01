@@ -67,4 +67,12 @@ I removed duplicates using the name column as reference column. (Select the name
 
 - Sort the index column in ascending order to get the actual number of employees.
 
-- At this point, the 'New Salary Table' is in order and ready for visualization based on the information required. 
+- At this point, the 'New Salary Table' is in order and ready for visualization based on the information required.
+
+- Select the 'New Salary Table'and click on report view.
+
+## ANALYSIS TASKS
+      
+Use pivot tables and calculated columns where necessary to answer the questions.
+1. What is the average discount percentage by product category?
+Using card visuals, drag it into the report canva and go to the 'New Salary Table', while the card is selected, check the name column and the number of employee names will be counted and displayed in the visual. 
