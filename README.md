@@ -112,5 +112,6 @@ Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Sal
 
 Substitute the specific gender for the separate measures to create measures for the other genders having created the first measure. The result is represented in the pie chart below.
 
-![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)
+```![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)
+
 By the pie chart above, I can confidently say difference between the male and female avearge salary is insignificant for any rational person to say that Palmora is gender biased in her operation or recruitment as the case may be.
