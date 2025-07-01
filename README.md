@@ -103,7 +103,7 @@ Click on column chart, drag name column into 'y' axis and chose count while for 
 
 ![No of employees based on department and gender](https://github.com/user-attachments/assets/e596c101-9837-4819-b37b-407efdcedd6c)
 
-By Location we have the chart below.
+By Location we have the chart below. Duplicate and uncheck the fields for the existing column chart. Drag gender and location into 'x' axis while for 'y' axis drag name column into it and summarize by count.
 
 ![Gender Distribution based on location](https://github.com/user-attachments/assets/de0c5998-35c1-47cb-b031-de932eaf6c1c)
 
