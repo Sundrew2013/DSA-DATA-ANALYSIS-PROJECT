@@ -45,12 +45,22 @@ CASE SCENARIO
 - I  deleted employees without salary by using filter option (the arrow by the bottom right of the header). Click on arrow of the actual column header you intend to filder and uncheck null cells. Replicate same for Department column.
   
 - For the blank cells in the Gender column, I used replaced value option. To do this, leave the find field blank and type unspecified in the replace field.
-I removed duplicates using the name column as reference column.
+I removed duplicates using the name column as reference column. (Select the name column, click home tab, in remove row pull down menu, select remove rows).
 
 - On the power query interface, open the bonus rule table, and change the number format for the rating columns to percentage.
 
 - Unpivot the columns  in the bonus table except the Department column (to do this, select the Department column, click unpivot  other columns).
 
-- Rename the Attribute column to rating.
+- Rename the Attribute column to Rating.
 
-- Now you have to merge the tables to creat a New Salary Table (Open the Palmoria group emp-data set again,on the home tab, under combine field, click merge queries as new using bonus table as second table). Use both department and rating as matching columns for the merging (Department to Department, Attributes to Rating). Left outer join is my type of join. 
+- Now you have to merge the tables to create a New Salary Table (Open the Palmoria group emp-data set again,on the home tab, under combine field, click merge queries as new using bonus table as second table). Use both department and rating as matching columns for the merging (Department to Department, Attributes to Rating). Left outer join is my type of join. The combined table is named New Salary Table.
+
+- After merging, delete unwanted columns (the Department and Attribute columns in the bouns table that was joined to the main table). This is because I already have them as part of the Palmoria Group emp-data table which I also refer to as my Primary table.
+
+- For employees that were not rated, replace 'null'with '0'and change the data type for bonus rule vale column to percentage.
+
+- For Bonus Amount Column, add custom column and rename the column then type the formula [salary]*[Bonus Rule Value]
+
+- When you close and apply, go to the data type ofeach of the columns and ensure they are correct. For Name, Gender, Department, Location columns, select text as the data type. For Bonus Rule Value column, select percentage as data type and apply thousand separator under column tools tab which appears once a column is selected.
+
+- Sort the index column in ascending order to get the actual number of employees
