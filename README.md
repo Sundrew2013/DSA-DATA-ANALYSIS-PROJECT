@@ -89,14 +89,6 @@ Select one of the duplicated cards, uncheck existing fields so that you can deci
 
 Replicate same process for female and unspecified gender as the case may be to get the number of female and unspecified gender employees as shown above.
 
-To get average salary based on gender, use pie chart visual. Create separate measures for average salary for male, female and unspecified using the formula below.
-
-Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")
-
-Substitute the specific gender for the separate measures to create for the other genders. The result is represented in the pie chart below.
-
-![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)
-
 1. What is the gender distribution in the organization? Distil to regions and departments. 
 
 Click on column chart, drag name column into 'y' axis and chose count while for 'x' axis drag gender and location into it.  
@@ -112,3 +104,12 @@ Using a Matrix visual, click and drag the visual in the canva while it is select
 
 ![No  of Employees based on gender ratings](https://github.com/user-attachments/assets/c10453d9-7e7e-4f2c-a50e-f0100ba76353)
 
+3. Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management.
+
+To do this I think getting the average salary based on gender is necessary and to do this, use pie chart visual. Create separate measures for average salary for male, female and unspecified using the formula below.
+
+Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")
+
+Substitute the specific gender for the separate measures to create measures for the other genders having created the first measure. The result is represented in the pie chart below.
+
+![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)
