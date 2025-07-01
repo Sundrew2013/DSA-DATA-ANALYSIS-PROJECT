@@ -83,4 +83,9 @@ After that, you can format the visual by clicking on the 'Format your Visual'opt
 
 Duplicate the formated card to ensure format consistency. 
 
-To get number of male employees, select the card visual, right click on any column and click new measure. Make the measure name 'Male count' then typ the formula Male Count = CALCULATE(CountX(FILTER('New Salary Table','New Salary Table'[Gender]= "MALE"),'New Salary Table'[Gender]))
+To get number of male employees, select the card visual, right click on any column and click new measure. Make the measure name 'Male count' enter the formula 
+
+````SQL
+Male Count = CALCULATE(CountX(FILTER('New Salary Table','New Salary Table'[Gender]= "MALE"),'New Salary Table'[Gender]))
+```
+
