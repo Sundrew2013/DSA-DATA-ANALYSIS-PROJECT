@@ -41,5 +41,16 @@ CASE SCENARIO
 - In the course of transforming my data, I removed unwanted columns (While on power query, right click on the column you intend to remove and click remove). I promoted my column header by making first row header (Click on anywhere in the table, click transform tab, on the table fields click on use first row as header).
   
 - I added index Column (click on the table, click on add column and  under general field, click on index column from 1. I reordered it to be my first column in my main data table (Palmoria Group emp-data) by clicking on the header, hold and drag to the desired position. Idouble clicked on the heading to rename it.
+  
 - I  deleted employees without salary by using filter option (the arrow by the bottom right of the header). Click on arrow of the actual column header you intend to filder and uncheck null cells. Replicate same for Department column.
+  
 - For the blank cells in the Gender column, I used replaced value option. To do this, leave the find field blank and type unspecified in the replace field.
+I removed duplicates using the name column as reference column.
+
+- On the power query interface, open the bonus rule table, and change the number format for the rating columns to percentage.
+
+- Unpivot the columns  in the bonus table except the Department column (to do this, select the Department column, click unpivot  other columns).
+
+- Rename the Attribute column to rating.
+
+- Now you have to merge the tables to creat a New Salary Table (Open the Palmoria group emp-data set again,on the home tab, under combine field, click merge queries as new using bonus table as second table). Use both department and rating as matching columns for the merging (Department to Department, Attributes to Rating). Left outer join is my type of join. 
