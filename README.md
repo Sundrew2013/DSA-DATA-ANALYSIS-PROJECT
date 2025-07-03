@@ -1,6 +1,10 @@
 # DSA-DATA-ANALYSIS-FINAL PROJECT
 This is a project executed at the end of my data analysis course under the auspices of Digital Skill Up Africa.
+
+![Power bi dashboard](https://github.com/user-attachments/assets/20a558c9-6413-4dd1-a20f-e9c17f3ef88e)
+
 ## PROJECT TITLE: DSA DATA ANALYSIS CAPSTONE PROJECT
+
 ## Case Study 3: PALMORA GROUP HUMAN RESOURCE (HR) ANALYSIS
 
 -[Project Overview](#project-overview)
