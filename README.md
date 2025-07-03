@@ -1,7 +1,7 @@
 # DSA-DATA-ANALYSIS-FINAL PROJECT
 This is a project executed at the end of my data analysis course under the auspices of Digital Skill Up Africa.
 
-![Power bi dashboard](https://github.com/user-attachments/assets/20a558c9-6413-4dd1-a20f-e9c17f3ef88e)
+![New palmo](https://github.com/user-attachments/assets/01b25b45-4751-4193-8425-61adf76a220b)
 
 ## PROJECT TITLE: DSA DATA ANALYSIS CAPSTONE PROJECT
 
@@ -121,7 +121,7 @@ To do this I think getting the average salary based on gender is necessary with 
 
 Substitute the specific gender for separate measures to create measures for the other genders having created the first measure. The result is represented in the pie chart below.
 
-![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)
+![new averag](https://github.com/user-attachments/assets/204f7d2f-7359-416e-baa7-2905ba75f826)
 
 By the pie chart above, I can confidently say difference between the male and female avearge salary is insignificant for any rational person to say that Palmora is gender biased in her operations or recruitments as the case may be.
 
