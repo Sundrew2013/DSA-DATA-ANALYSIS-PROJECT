@@ -5,7 +5,7 @@ This is a project executed at the end of my data analysis course under the auspi
 
 ## PROJECT TITLE: DSA DATA ANALYSIS CAPSTONE PROJECT
 
-## Case Study 3: PALMORA GROUP HUMAN RESOURCE (HR) ANALYSIS
+## Case Study 3: PALMORA GROUP HUMAN RESOURCE (HR) ANALYSIS 
 
 -[Project Overview](#project-overview)
 
