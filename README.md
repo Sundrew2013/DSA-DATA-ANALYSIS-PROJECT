@@ -149,6 +149,7 @@ To arrive at the above chart, create a measures using the formulars below.
 
     New Salary <30000 = CALCULATE(COUNTROWS(FILTER('New Salary Table',[New Salary] <30000)))
 
+    
     [New Salary >=30000 <50000] = CALCULATE(COUNTROWS(FILTER('New Salary Table',[New Salary] >=30000 && 'New Salary Table'[New Salary] <50000)))
 
     New Salary >50000<70000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=50000 && 'New Salary Table'[New Salary] <70000))
