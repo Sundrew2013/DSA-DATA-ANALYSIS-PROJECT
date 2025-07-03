@@ -17,6 +17,8 @@ This is a project executed at the end of my data analysis course under the auspi
 
 -[Analysis Tasks](#analysis-tasks)
 
+-[Finding and Recommendations](#finding-and-recommendations)
+
 ### PROJECT OVERVIEW
 
 This is a project that that is aimed that ascertaining if there is ascertaining if there is any form of gender inequality in the operations of the company with the view to balance the gender distribution if at all there is any. By meticulous analysis of the data, the company will be able to make informed decision that will enable them to confidently challenge any criticism that is confirmed to be baseless.
@@ -172,4 +174,7 @@ New Salary>110000
   See image below for representation. Note that on the power bi interface, there is a provision to scroll.
 
   ![No  of empoyees based on salary range and region](https://github.com/user-attachments/assets/8467a5b1-7901-49b3-be82-0b812903214f)
+
+### Finding and Recommendations
+From the analysis so far, there is no significant issue related to gender inequality. However, the company should beef-up their salary range to meet up with the minimum of $90,000.
   
