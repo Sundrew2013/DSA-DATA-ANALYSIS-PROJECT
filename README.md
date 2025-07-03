@@ -142,6 +142,7 @@ To arrive at the above chart, create a measures using the formulars below.
     New Salary <90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] <90000))
     
  For less greater than or equal to 90000
+    
     [New Salary >=90000] = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000))
 
 - For pay distribution grouped by band, create new measures for each ranges by entering the formular below.
