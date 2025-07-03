@@ -39,34 +39,35 @@ CASE SCENARIO
 
 ### STEP BY STEP PROCEDURES 
 
-- I painstakingly read all that concerns the project and the given parameters as well as the data supplied to me by company. This enable me to understand what steps I am to take towards achieving the goal.
+- I painstakingly read all that concerns the project and the given parameters as well as the data supplied to me by the company. This enabled me to understand what line of actions are necessary to achieving the goal.
   
-- Import the both file which contains the two required tables named Palmoria group emp-data and Bonus Rule  given to me and transformed the two tables using power query.
+- Import the both files which contains the two required datesets named Palmoria group emp-data and Bonus Rule  furnished and transformed them using power query.
   
 - In the course of transforming my data, I removed unwanted columns (While on power query, right click on the column you intend to remove and click remove). I promoted my column header by making first row header (Click on anywhere in the table, click transform tab, on the table fields click on use first row as header).
   
-- I added index Column (click on the table, click on add column and  under general field, click on index column from 1. I reordered it to be my first column in my main data table (Palmoria Group emp-data) by clicking on the header, hold and drag to the desired position. Idouble clicked on the heading to rename it.
+- I added index Column (click on the table, click on add column and  under general field, click on index column from 1. I reordered it to be my first column in my primary dataset (Palmoria Group emp-data) by clicking on the header, hold and drag to the desired position. I double clicked on the heading to rename it.
   
-- I  deleted employees without salary by using filter option (the arrow by the bottom right of the header). Click on arrow of the actual column header you intend to filder and uncheck null cells. Replicate same for Department column.
+- I  deleted employees without salary by using filter option (the arrow by the bottom right of the header). Click on the arrow of the actual column header you intend to filter and uncheck null cells. Replicate same for Department column.
   
 - For the blank cells in the Gender column, I used replaced value option. To do this, leave the find field blank and type unspecified in the replace field.
 I removed duplicates using the name column as reference column. (Select the name column, click home tab, in remove row pull down menu, select remove rows).
 
-- On the power query interface, open the bonus rule table, and change the number format for the rating columns to percentage.
+- On the power query interface, open the bonus rule dataset, and change the number format for the rating columns to percentage.
 
 - Unpivot the columns  in the bonus table except the Department column (to do this, select the Department column, click unpivot  other columns).
 
 - Rename the Attribute column to Rating.
 
-- Now you have to merge the tables to create a New Salary Table (Open the Palmoria group emp-data set again,on the home tab, under combine field, click merge queries as new using bonus table as second table). Use both department and rating as matching columns for the merging (Department to Department, Attributes to Rating). Left outer join is my type of join. The combined table is named 'New Salary Table'.
+- At this point, you have to merge the tables to create a New Salary Table (Open the Palmoria group emp-data set again,on the home tab, under combine field, click merge queries as new using bonus table as second table). Use both department and rating as matching columns for the merging (Department to Department, Attributes to Rating). Left outer join is my type of join. The combined table is named 'New Salary Table'.
 
 - After merging, delete unwanted columns (the Department and Attribute columns in the bouns table that was joined to the main table). This is because I already have them as part of the Palmoria Group emp-data table which I also refer to as my Primary table.
 
-- For employees that were not rated, replace 'null'with '0'and change the data type for bonus rule vale column to percentage.
+- For employees that were not rated, replace 'null' with '0' and change the data type for bonus rule value column to percentage.
 
-- For Bonus Amount Column, add custom column and rename the column then type the formula [salary]*[Bonus Rule Value]
+- For Bonus Amount Column, add custom column and rename the column then type the formula below.
+    [salary]*[Bonus Rule Value]
 
-- When you close and apply, go to the data type of each of the columns and ensure they are correct. For Name, Gender, Department, Location columns, select text as the data type. For Bonus Rule Value column, select percentage as data type and apply thousand separator under column tools tab which appears once a column is selected.
+- When you close and apply, go to the data type of each of the columns and ensure they are correct. For Name, Gender, Department, Location columns, select text as the data type. For Bonus Rule Value column, select percentage as data type. Ensure you apply thousand separator for amounts, it can be located under column tools tab which appears once a column is selected.
 
 - Sort the index column in ascending order to get the actual number of employees.
 
@@ -94,8 +95,8 @@ Replicate same process for female and unspecified gender as the case may be to g
 
 #### 1. What is the gender distribution in the organization? Distil to regions and departments. 
 
-Click on column chart, drag name column into 'y' axis and choose count while for 'x' axis drag gender and department into it.
-From the chart, below, if you hover around the columns in the chart, the number of employees in a particular department will display. Note that the various colors represent different department as shown in the legend. The departments are Research and Development, Accounting, Marketing, Services, Human Resources, Training, Product Management and Business Development department.
+Click on column chart, drag name column into 'y' axis and select count while for 'x' axis drag gender and department into it.
+From the chart below, if you hover around the columns in the chart, the number of employees in a particular department will display. Note that the various colors represent different department as shown in the legend. The departments are Research and Development, Accounting, Marketing, Services, Human Resources, Training, Product Management and Business Development department.
 
 ![No of employees based on department and gender](https://github.com/user-attachments/assets/e596c101-9837-4819-b37b-407efdcedd6c)
 
@@ -103,30 +104,30 @@ By Location we have the chart below. Duplicate and uncheck the fields for the ex
 
 ![Gender Distribution based on location](https://github.com/user-attachments/assets/de0c5998-35c1-47cb-b031-de932eaf6c1c)
 
-2. Show insights on ratings based on gender.
+#### 2. Show insights on ratings based on gender.
 Using a Matrix visual, click and drag the visual in the canva while it is selected, drag gender column into rows area, rating column into column area and name column into values area and summarize by count. You will get the chart below as the result.
 
 ![No  of Employees based on gender ratings](https://github.com/user-attachments/assets/c10453d9-7e7e-4f2c-a50e-f0100ba76353)
 
-For no. of employees based on gender and department, duplicate the existing Matrix visuals used above, drag department column into rows area, gender column into column area, name column into values and summarize by count.
+For no. of employees based on gender and department, duplicate the existing Matrix visuals used above, drag department column into rows area, gender column into columns area, name column into values and summarize by count.
 
-3. Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management.
+#### 3. Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management.
 
-To do this I think getting the average salary based on gender is necessary and to do this, use pie chart visual. Create separate measures for average salary for male, female and unspecified using the formula below.
+To do this I think getting the average salary based on gender is necessary with the help of a pie chart visual. Create separate measures for average salary for male, female and unspecified using the formula below.
 
-```Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")```
+    Average Male Salary = CALCULATE(AVERAGE('New Salary Table'[New Salary]),'New Salary Table'[Gender]= "Female")```
 
-Substitute the specific gender for the separate measures to create measures for the other genders having created the first measure. The result is represented in the pie chart below.
+Substitute the specific gender for separate measures to create measures for the other genders having created the first measure. The result is represented in the pie chart below.
 
 ![Avg Salary based on gender](https://github.com/user-attachments/assets/025b63f3-5538-4c1f-88a4-c2a8ec50e438)
 
-By the pie chart above, I can confidently say difference between the male and female avearge salary is insignificant for any rational person to say that Palmora is gender biased in her operation or recruitment as the case may be.
+By the pie chart above, I can confidently say difference between the male and female avearge salary is insignificant for any rational person to say that Palmora is gender biased in her operations or recruitments as the case may be.
 
-Further more you can also get average salary based on location department and region. to do this, duplicate the existing matrix visual to sustain consistency. Uncheck the existing columns in the visual, drag gender and location column into rows area, department column in to column area and average new salary column into values. Using the chart formart tab, you can edit the table title and others to your satisfaction.
+Further more you can also get average salary based on location, department and region. To do this, duplicate the existing matrix visual to sustain consistency. Uncheck the existing columns in the visual, drag gender and location column into rows area, department column in to columns area and average new salary column into values. Using the chart formart tab, you can edit the table title and others to your satisfaction.
 
 ![Average salary based on location department and region](https://github.com/user-attachments/assets/e489978b-928b-494d-9a34-4507536a9aa3)
 
-4. A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000.
+#### 4. A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000.
   ● Does Palmoria meet this requirement? 
   ● Show the pay distribution of employees grouped by a band of $10,000. For example: 
   ● How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.? 
@@ -134,29 +135,27 @@ Further more you can also get average salary based on location department and re
 
 ![Minimum of 90000](https://github.com/user-attachments/assets/f9f526de-e7c6-4ab7-a463-7978fad8f7f4)
 
-By the Pie chart above, Palmora has not met the requirement because 570 employees which represent 65.22% of the total employee still earn below $90,000.
+By the Pie chart above, Palmora has not met the requirement because 570 employees which represent 65.22% of the total employees still earn below $90,000.
 
-To arrive at the above chart, create a measure for employees earning >=90,000 using the formular below 
+To arrive at the above chart, create a measures using the formulars below. 
 
-New Salary <90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] <90000))
+    New Salary <90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] <90000))
 
-[New Salary >=90000] = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000))
+    [New Salary >=90000] = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000))
 
 - For pay distribution grouped by band, create new measures for each ranges by entering the formular below.
 
-  New Salary <30000 = CALCULATE(COUNTROWS(FILTER('New Salary Table',[New Salary] <30000)))
+    New Salary <30000 = CALCULATE(COUNTROWS(FILTER('New Salary Table',[New Salary] <30000)))
 
-  [New Salary >=30000 <50000] = CALCULATE(COUNTROWS(FILTER('New Salary Table',[New Salary] >=30000 && 'New Salary Table'[New Salary] <50000)))
+    [New Salary >=30000 <50000] = CALCULATE(COUNTROWS(FILTER('New Salary Table',[New Salary] >=30000 && 'New Salary Table'[New Salary] <50000)))
 
-  New Salary >50000<70000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=50000 && 'New Salary Table'[New Salary] <70000))
+    New Salary >50000<70000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=50000 && 'New Salary Table'[New Salary] <70000))
 
-  The Matrix Visual below has the representation of values
+    New Salary >70000<90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=70000 && 'New Salary Table'[New Salary] <90000))
 
-  New Salary >70000<90000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=70000 && 'New Salary Table'[New Salary] <90000))
+    New Salary >90000<110000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000 && 'New Salary Table'[New Salary] <110000))
 
-  New Salary >90000<110000 = COUNTROWS(FILTER('New Salary Table',[New Salary] >=90000 && 'New Salary Table'[New Salary] <110000))
-
-  ``New Salary>110000 = COUNTROWS(FILTER('New Salary Table',[Salary] > 110000))
+    New Salary>110000 = COUNTROWS(FILTER('New Salary Table',[Salary] > 110000))
 
   ![No  of empoyees based on salary range and region](https://github.com/user-attachments/assets/8467a5b1-7901-49b3-be82-0b812903214f)
   
