@@ -86,13 +86,13 @@ Duplicate and use the formated card to ensure format consistency.
 
 To get number of male employees, create a new measure by right clicking on any column and click new measure. Make the measure name 'Male count' enter the formula below.
 
-Male Count = CALCULATE(CountX(FILTER('New Salary Table','New Salary Table'[Gender]= "MALE"),'New Salary Table'[Gender]))
+  Male Count = CALCULATE(CountX(FILTER('New Salary Table','New Salary Table'[Gender]= "MALE"),'New Salary Table'[Gender]))
 
 Select one of the duplicated cards, uncheck existing fields so that you can decide on what to represent. Since we want no. of male employees, check the 'male count' measure created and you will see the number of males as shown in the image above.
 
 Replicate same process for female and unspecified gender as the case may be to get the number of female and unspecified gender employees as shown above.
 
-1. What is the gender distribution in the organization? Distil to regions and departments. 
+#### 1. What is the gender distribution in the organization? Distil to regions and departments. 
 
 Click on column chart, drag name column into 'y' axis and choose count while for 'x' axis drag gender and department into it.
 From the chart, below, if you hover around the columns in the chart, the number of employees in a particular department will display. Note that the various colors represent different department as shown in the legend. The departments are Research and Development, Accounting, Marketing, Services, Human Resources, Training, Product Management and Business Development department.
